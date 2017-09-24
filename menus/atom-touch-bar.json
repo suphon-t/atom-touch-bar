@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Color picker",
+        "command": "atom-touch-bar:color-picker"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Atom Touch Bar",
+          "submenu": [
+            {
+              "label": "Color picker",
+              "command": "atom-touch-bar:color-picker"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "atom-touch-bar",
+  "main": "./lib/main",
+  "version": "0.0.0",
+  "description": "Add functionality to the Touch Bar",
+  "keywords": [
+  ],
+  "repository": "https://github.com/paphonb/atom-touch-bar",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  },
+  "author": "paphonb",
+  "dependencies": {
+  }
+}
